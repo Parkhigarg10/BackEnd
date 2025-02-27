@@ -1,0 +1,130 @@
+
+body {
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.title, h1, h2 {
+    text-align: center;
+    color: #222;
+    margin-top: 20px;
+}
+
+.main-page-body {
+    width: 60vw;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.main-page-body ul {
+    padding: 0;
+}
+
+.main-page-body ul li {
+    list-style: none;
+    padding: 12px;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+    transition: background 0.3s ease-in-out;
+}
+
+.main-page-body ul li:hover {
+    background: #f1f1f1;
+}
+
+
+.addBtn {
+    display: inline-block;
+    background-color: #007bff; 
+    color: white;
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin: 20px 0;
+}
+
+.addBtn:hover {
+    background-color: #0056b3;
+}
+
+/* Form Styling */
+.new-blog-form {
+    width: 50vw;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.new-blog-form label {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.new-blog-form input, .new-blog-form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.new-blog-form button {
+    background-color: #28a745; 
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.new-blog-form button:hover {
+    background-color: #218838;
+}
+
+
+.post-body {
+    width: 50vw;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 768px) {
+    .main-page-body, .post-body, .new-blog-form {
+        width: 90vw;
+    }
+
+    .addBtn {
+        width: 100%;
+        font-size: 16px;
+        padding: 10px;
+    }
+}

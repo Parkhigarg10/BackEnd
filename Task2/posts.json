@@ -1,0 +1,21 @@
+[
+  {
+    "title": "The future of web Development",
+    "content": "Web development is constantly evolving with new frameworks and technologies. In this post, we explore the latest trends and what the future holds.",
+    "author": "Tanish Setia",
+    "id": 0,
+    "date": "2025/2/23"
+  },
+  {
+    "title": "Rohit Sharma - The HITMAN",
+    "content": "Rohit Sharma, popularly known as 'The Hitman' of Indian cricket, is one of the most elegant and destructive batsmen in the world. With his effortless stroke play and ability to score big hundreds, he has redefined modern-day batting. From smashing record-breaking double centuries in ODIs to leading India as a captain, his journey is truly inspirational.",
+    "author": "A Cricket Geek",
+    "id": 1,
+    "date": "2025/2/23"
+  },
+  {
+    "id": 3,
+    "title": "nature",
+    "content": "trees and flowers"
+  }
+]
